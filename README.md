@@ -1,2 +1,2 @@
-# SeansFingerprintJava
+# FingerprintJava
 ...
