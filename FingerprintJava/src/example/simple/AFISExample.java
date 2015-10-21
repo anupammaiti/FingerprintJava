@@ -40,7 +40,7 @@ public class AFISExample {
 		 
 		/*giving dummy id -1 for probe*/
 		Person probe = getPerson(-1,new byte[][]{p1});
-		List<Person> matches=afis.identify(probe, database);
+		List<Person> matches=(List<Person>) afis.identify(probe, database);
 		
 		for(Person match:matches){
 			System.out.println("Matched::"+match.getId());
